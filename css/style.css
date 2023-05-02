@@ -50,3 +50,160 @@ table {
 
 
 /* Write your css below here */
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	padding: 20px;
+	display: flex;
+	position: relative;
+}
+
+nav ul {
+	float: right;
+	padding-top: 20px;
+}
+
+nav ul li {
+	display: inline;
+	
+}
+
+nav ul li a {
+	margin-left: 7px;
+	margin-right: 10px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #5a516c;
+	vertical-align: middle;	
+}
+
+.main-body span a {
+	margin-left: 5px;
+}
+
+footer div.footer-bottom-left a,
+footer div.footer-bottom-center a,
+footer div.footer-bottom-right a {
+	text-decoration: none;
+	color: #6f6f6f;
+	padding: 0 20px 0 0;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+footer div.footer-bottom-left a:hover,
+footer div.footer-bottom-center a:hover,
+footer div.footer-bottom-right a:hover {
+	text-decoration: underline;
+}
+
+nav ul li img {
+	width: 24px;
+}
+
+.main-body {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.main-body > img {
+	width: 250px;
+	margin: auto;
+	object-fit: contain;
+	margin-top: 70px;
+}
+
+.main-body .search {
+	width: 65vw;
+	max-width: 550px;
+	margin: auto;
+	border: 1px solid lightgray;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	height: 45px;
+	padding: 10px 20px;
+	margin-top: 40px;
+	
+}
+
+.main-body .search:hover {
+	box-shadow: 1px 1px 5px 0.5px lightgray;
+}
+
+.main-body .search-icon {
+	height: 20px;
+	margin-right: 7px;
+}
+
+.main-body .mic-icon {
+	height: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.main-body .camera-icon {
+	height: 20px;
+	cursor: pointer;
+}
+
+.main-body .search input {
+	height: 100%;
+	width: 70%;
+	border: none;
+	outline: none;
+	flex: 1;
+}
+
+.main-body .buttons {
+	margin: 25px auto;
+}
+
+.main-body .buttons button {
+	padding: 10px 15px;
+	background-color: #f2f2f2;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.main-body .buttons button:hover {
+	box-shadow: -0.5px 0.5px 2px 1px lightgray;
+}
+
+.main-body span {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	font-size: 0.9em;
+}
+
+footer {
+	background-color: #f2f2f2;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 14px;
+	color: #6f6f6f;
+}
+
+footer div.footer-top {
+	padding: 15px 30px;
+	border-bottom: 1px solid #dadce0;
+}
+
+footer div.footer-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+}
